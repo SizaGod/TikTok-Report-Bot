@@ -5,7 +5,7 @@ ts = str(int(time.time() * 1000))
 tss =str(int(time.time()))
 def xor(string: str) -> str:
  return "".join([hex(ord(_) ^ 5)[2:] for _ in string])
-class whisper:
+class SizaGod:
     def __init__(self) -> None:
         self.registered = 0
     def sign(self, params, payload: str = None, sec_device_id: str = "", cookie: str or None = None, aid: int = 1233, license_id: int = 1611921764, sdk_version_str: str = "v04.04.05-ov-android", sdk_version: int = 134744640, platform: int = 0, unix: int = None):
@@ -23,4 +23,4 @@ class whisper:
          print(f'[×] Error : {response.text}')
 id=str(input('Target ID : '))
 while True:
- whisper().report()
+ SizaGod().report()
